@@ -1,0 +1,558 @@
+@media (max-width:768px) {
+        header {
+            height: 104px;
+        }
+        section {
+            margin-bottom: 144px;
+        }
+        .first {
+            height: 500px;
+            
+        }
+        .first_conteiner {
+            width: 398px;
+            padding-left: 58px;
+        }
+
+        .first h1 {
+            font-size: 48px;
+            line-height: 48px;
+            margin-bottom: 24px;
+        }
+        .first p {
+            margin-bottom: 40px;
+            font-size: 15px;
+            line-height: 25px;
+        }
+        
+        /* second */
+        .second {
+            padding-top: 59px;
+            margin-bottom: 144px;
+        }
+        .conteiner_flex {
+            gap: 32px;
+            flex-wrap: nowrap;
+            flex-direction: column;
+            align-items: center;
+        }
+        .box {
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .second .box {
+            
+            height: 255px;
+            width: 579px;
+        }
+
+        .second h3,
+        .second p,
+        .therd h3,
+        .therd p {
+            text-align: start;
+        }
+
+        .kofe_type {
+            width: 255px;
+        }
+        /* therd */
+
+        .therd {
+            margin-bottom: 434px;
+        } 
+
+        .therd .fon {
+            padding-top: 56px;
+            gap: 24px;
+        }
+        .therd .conteiner_flex {
+            top: 275px;
+        }
+        .therd .box {
+            max-width: 573px;
+            height: 180px;
+            padding: 0 0 0 70px;
+            align-items: center;
+            gap: 55px;
+        }
+        .vorteil {
+            max-width: 344px;
+        }
+
+        .therd h2 {
+            font-size: 32px;
+        }
+        .therd h3 {
+            margin-bottom: 16px;
+        }
+        /* fouth */
+        .fourth {
+            padding-left: 0;
+        } 
+        .fourth h1 {
+            margin-bottom: 42px;
+        }      
+        .fourth h3 {
+            font-size: 28px;
+            line-height: 32px;
+            max-width: 223px;
+        }
+        .fourth p {
+            font-size: 15px;
+            line-height: 25px;
+            max-width: 223px;
+        }
+        .fourth h4 {
+            margin-bottom: 56px;
+        }
+        /* footer */
+        footer {
+            height: 271px;
+            margin-bottom: 72px;
+            justify-content: center;
+            flex-direction: column;
+            gap: 33px;
+        }
+
+        .nav_footer {
+            margin-bottom: 33px;
+        }
+
+        /* about */
+        /* first */
+        .first.about {
+            margin-bottom: 144px;
+        }
+        .first_conteiner.about {
+            width: 398px;
+            padding-left: 58px;
+        }
+        .first h3 {
+            font-size: 32px;
+            line-height: 40px;
+        }
+        /* second */
+        .second.about {
+            height: 470px;
+            margin-bottom: 144px;
+            
+        }
+        .second_box h3 {
+            font-size: 32px;
+            margin-bottom: 30px;
+        }
+        .second_box p {
+            line-height: 26px;
+        }
+
+        /* therd */
+        .therd.about {
+            height: 648px;
+        }
+        
+        .therd_conteiner {
+            flex-direction: column;
+            justify-content: start;
+            
+            gap: 64px;
+            align-items: center;
+            max-width: 573px;
+        }
+        .therd_text {
+            padding-top: 0;
+            order: 2;
+        }
+        .therd.about h2 {
+            margin-bottom: 24px;
+           font-size: 32px;
+            line-height: 48px;
+            
+        }
+
+        .therd.about p {
+             font-size: 15px;
+             line-height: 25px;
+        }
+        .therd.about p,
+        .therd.about h2 {
+            text-align: center;
+        }
+        .therd_foto {
+            width: 100%;
+            height: 320px;
+            background-image: url(../image/about/therd_section_tablet.jpg);
+        } 
+
+        /* about fourth */
+
+        .fourth.about img {
+            margin-bottom: 48px;
+        }
+        .fourth.about h3 {
+            margin-bottom: 21px;
+            font-size: 24px;
+            line-height: 36px;
+        }
+        .fourth.about .text_conteiner {
+            max-width: 223px;
+        }
+        /* subscribe */
+
+        .fourth.subscribe {
+            background: #2C343E;
+            padding: 113px 0 70px 40px;
+        }
+        .small {
+            display: none;
+        }
+        big {
+            width: 689px;
+            gap: 100px;
+        }
+        .tipe {
+            width: 223px;
+        }
+        .content {
+            
+            gap: 10px;
+
+        }
+        .order {
+            align-items: center;
+        }
+}
+
+/* Mobile */
+
+@media (max-width:375px) {
+        
+    header {
+        height: 90px;
+    }  
+    
+    .burger {
+        position: absolute;
+        top: 90px;
+        left: 0;
+        right: 0;
+        transform: translateY(-900px); 
+        height: 577px;
+        background: linear-gradient(0deg, rgba(254, 252, 247, 0.504981) 0%, #FEFCF7 55.94%);
+            /* transform: matrix(1, 0, 0, -1, 0, 0); */
+    }
+    header nav {
+            gap: 32px;
+            text-align: center;
+            padding-top: 40px;
+        }
+        
+    header a {
+        font-family: 'Fraunces';
+            font-style: normal;
+            font-weight: 900;
+            font-size: 24px;
+            line-height: 32px;            
+            color: #333D4B;
+            text-transform: capitalize;
+    }
+        .burger.click {
+            transform: none;
+        }
+
+        .logo {
+            width: 163px;
+            height: 18px;
+            background-image: url(../image/Logo_header_home_mobile.svg);
+            background-size: auto;
+        }
+        .nav_button {
+             display: block;
+             border: none;
+             padding: 0;
+        }
+       
+        .nav_button.click {
+            display: block;
+            border: none;
+            padding: 0;
+            background-image: url(../image/home/button_header_click.png);
+            
+       }
+
+        nav {
+            flex-direction: column;
+            gap: 24px;
+            height: 93px;
+            margin-bottom: 0;
+        }
+        section {
+            margin-bottom: 120px;
+        }
+        .first {
+            height: 500px;
+            background-image: url(../image/section/first_mobile.jpg);
+            margin-bottom: 120px;
+        }
+        .first_conteiner {
+            width: 279px;
+            padding: 0;
+            margin-left: auto;
+            margin-right: auto;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .first h1 {
+            font-size: 40px;
+            line-height: 40px;
+            margin-bottom: 24px;
+            text-align: center;
+        }
+        .first p {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+        /* second */
+
+        .second {
+            padding-top: 85px;
+            
+        }
+
+        .conteiner_flex {
+            gap: 48px;
+        }
+        .box {
+            flex-direction: column;
+            justify-content: start;
+        }
+        .second .box {
+            
+            gap: 24px;
+            height: 100%;
+        }
+        .second h3,
+        .second p,
+        .therd h3,
+        .therd p  {
+            text-align: center;
+        }
+        .second h3 {
+            margin-bottom: 16px;
+           
+        }
+        /* therd */
+        
+        .therd {
+            margin-bottom: 717px;
+        }  
+
+        .therd .fon {
+            height: 902px;
+            padding-top: 64px;
+        }
+        .therd .conteiner_flex {
+            top: 305px;
+        }
+        .therd .box {
+            width: 279px;
+            height: 382px;
+            padding: 72px 0 0 0;
+        }
+        .vorteil {
+            max-width: 255px;
+        }
+        .therd h2 {
+            font-size: 28px;
+            line-height: 28px;
+        }
+        /* fourth */
+        .fourth h4 {
+            margin-bottom: 0px;
+        }
+        .fourth {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 80px;
+            width: 327px;
+        }
+        .text_conteiner {
+            width: 327px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .fourth img {
+            display: none;
+        }
+
+        .fourth h1 {
+            padding-top: 0;
+            border-top: none;
+            text-align: center;
+            margin-bottom: 24px;
+        }
+
+        .fourth h3 {
+            font-size: 28px;
+            line-height: 32px;
+            text-align: center;
+            margin-bottom: 24px;
+        }
+
+        .fourth p {
+            font-size: 15px;
+            line-height: 25px;
+            text-align: center;
+        }
+        .how_it_works {
+            flex-direction: column;
+            
+            gap: 56px;
+            margin-bottom: 0;
+        }
+        /* footer */
+        footer {
+            height: 346px;
+            
+        }
+        .logo_footer {
+            width: 218px;
+            height: 24px;
+            gap: 48px;
+        }
+
+        .nav_footer {
+            margin-bottom: 0;
+            flex-direction: column;
+            align-items: center;
+            gap: 24px;
+        }
+
+        /* about */
+        /* first */
+        .first.about {
+            height: 400px;
+            margin-bottom: 120px;
+        }
+        .first_conteiner.about {
+            width: 279px;
+            padding-left: 0;
+        }
+        .first h3 {
+            font-size: 28px;
+            line-height: 28px;
+        }
+        /* second */
+        .second.about {
+            height: 901px;
+            flex-direction: column;
+            margin-bottom: 120px;
+            justify-content: start;
+            gap: 48px;
+        }
+        .first_box,
+        .second_box {
+            width: 327px;
+        }
+
+        .first_box {
+            height: 400px;
+            background-position: top;
+        }
+        .second_box h3 {
+            font-size: 32px;
+            text-align: center;
+            color: #333D4B;
+        }
+        .second_box p {
+            text-align: center;
+            line-height: 25px;
+        }
+
+        /* therd */
+        .therd.about {
+            height: 587px;
+        }
+        .therd_conteiner {
+            max-width: 279px;
+        }
+        .therd.about h2 {
+           font-size: 28px;
+            line-height: 28px;
+            
+        }
+      .therd_foto {
+        height: 156px;
+      }
+      /* about fourth */
+
+      .fourth.about img {
+        display: block;
+    }
+    .fourth.about {
+        gap: 72px;
+    }
+    .fourth.about .how_it_works {
+        gap: 80px;
+    }
+    .fourth.about .text_conteiner {
+        height: 262px;
+    }
+    .fourth.about h3 {
+        margin-bottom: 22px;
+    }
+     /* subscribe */
+
+     .fourth.subscribe {
+        padding: 80px 0;
+    }
+
+    .subscribe {
+        flex-direction: column;
+        justify-content: flex-start;
+        gap: 110px;
+        align-items: center;
+        width: 328px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .big,
+    .tipe {
+        width: 100%;
+    }
+    .tipe {
+        height: 140px;
+        padding-top: 24px;
+    }
+    .type {
+        justify-content: start;
+        gap: 8px;
+        width: 278px;
+    }
+    .big h2 {
+        font-size: 24px;
+line-height: 28px;
+max-width: 240px;
+    }
+    .big h4 {
+        font-size: 24px;
+line-height: 32px;
+    }
+    .big p {
+        font-size: 16px;
+line-height: 26px;
+    }
+    .order {
+        gap: 56px;
+    }
+    .order_box {  
+padding: 32px 24px;
+
+}
+}
